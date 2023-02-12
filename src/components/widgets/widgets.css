@@ -1,0 +1,147 @@
+.small-widget-row{
+    width: 100%;
+    height: 100%;
+    /* background-color: skyblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 0 20px ;
+}
+.main-mini-widgets-container{
+    display: flex;
+    justify-content: space-between;
+}
+.AllWidgets-container{
+    width: 100%;
+    height: 100%;
+    padding-right: 10px;
+}
+.widget-container{
+    /* padding: 5px 0; */
+    height: 330px;
+}
+
+.small-widget{
+    height: 150px;
+   
+    border-radius: 10px;
+}
+
+
+.makeReport{
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../public/covers/bg-2\ \(1\).jpg');
+   background-position: top center;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.bulding{
+    background-image: url('../../../public/covers/img-12.jpg');
+    background-position: top center;
+    cursor: pointer;
+    padding: 20px;
+}
+.bulding-title{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+.MakeReportTitle{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.row{
+    --bs-gutter-x:0rem
+}
+
+
+
+.ideas-sec{
+    padding: 25px 0 0 0;
+
+    height: 240px;
+    border-radius: 10px;
+
+}
+.makeidea{
+    background-image: url('../../../public/covers/taieri.svg');
+background-repeat: no-repeat;
+background-position: right bottom;
+background-size: contain;
+    width: 100%;
+    height: 100%;
+    background-color: #1a263c;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.makeIdeatıtle{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+
+
+.new-customer{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #fff;
+}
+.allNewCustomer{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.discoveryBTN{
+    padding: 5px 15px;
+    background-color: rgb(255, 75, 75);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.newCustomerTitle{
+    font-size: 13px;
+    color: rgb(138, 138, 138);
+}
+@media screen and (max-width:1200px){
+    .small-widget-row{
+padding: 0;
+      margin-bottom: 20px;
+    }
+    .AllWidgets-container {
+        padding: 0;
+    }
+    .small-widget-row {
+        margin-bottom: 20px;
+    }
+    .widget-container{
+        padding: 10px 0;
+    }
+    .makeReport{
+
+        background-position: center;
+        background-size: cover;
+    }
+  }

@@ -1,0 +1,82 @@
+.sidebar-container{
+ 
+    width: 360px;
+    padding: 54px 33px 48px 41px;
+    height: 95vh;
+    position: sticky;
+    top: 70px;
+
+}
+.mainSideBar{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow:hidden;
+
+   
+}
+.mainSideBar:hover{
+    overflow-y: scroll;
+}
+.modeIcon{
+cursor: pointer;
+}
+@media screen and (max-Width:1200px) {
+    .sidebar-container{
+        position:absolute;
+        display: none;
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+  background:none;
+  width:5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+  
+    background: rgba(128, 128, 128, 0.372); 
+    border-radius: 5px;
+    height: 30px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+
+  .sideBar-ul-container{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .Link-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .links{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  .links:hover , .active{
+    background-color: rgba(192, 192, 255, 0.23);
+  }
+  .mini-ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }

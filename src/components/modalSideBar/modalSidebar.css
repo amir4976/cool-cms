@@ -1,0 +1,12 @@
+.sidebarModalOpen{
+    display: none;
+}
+@media screen and (max-width:1200px) {
+    .sidebarModalOpen{
+        display: block;
+    }
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}

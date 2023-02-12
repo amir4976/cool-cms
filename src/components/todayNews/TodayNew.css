@@ -1,0 +1,91 @@
+.TodayNews-container{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.TodayNews-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+.todayHeader-title{
+    display: flex;
+    flex-direction: column;
+}
+.todayHeader-dis{
+    font-size: 13px;
+    color: rgb(116, 116, 116);  
+}
+.todayHeader-title{
+    font-size: 20px;
+}
+.today-report{
+    padding: 5px 15px;
+    border: none;
+border-radius: 10px;
+}
+.datePicker{
+    width:100%;
+    height: 70px;
+    display:flex;
+    justify-content:space-evenly;
+}
+.dateBtn{
+    width:50px;
+    height:70px;
+    border:none;
+    border-radius:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+.activeDate{
+    background:#ff1651;
+    color:#fff;
+}
+.report-container{
+    width: 100%;
+    height: 55%;
+    padding: 10px;
+}
+.today-report-sec{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.report-info{
+    display: flex;
+    flex-direction: column;
+}
+.today-report-time{
+    font-size: 30px;   height: 35px;
+    display: flex;
+}
+.today-report-title{
+    font-size: 14px;
+    color: rgb(116, 116, 116);
+ 
+}
+.dayTime{
+    font-size: 13px;
+    color: rgb(116, 116, 116);
+}
+.discover-btn{
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(102, 95, 118, 0.358);
+    color: rgb(106, 106, 106);
+}
+.byWho{
+    font-size: 13px;
+}

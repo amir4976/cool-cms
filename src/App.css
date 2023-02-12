@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: MainFont ;
+  src: url(../public/PeydaWeb-Bold.ttf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:MainFont;
+  transition: all .3s;
+  list-style-type: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mainPage{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.Scroll-to-top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  left: 30px;
+  bottom: 10px;
+  border-radius: 50%;
+  background-color: rgb(175, 175, 255);
+color: rgb(41, 41, 41);
+border: none;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.scrollBTN{
+  left: 30px;
+  opacity: 50%;
+  border-radius: 50%;
+}
+.scrollBTN:hover{
+  opacity: 100%;
+  border-radius: 50%;
 }

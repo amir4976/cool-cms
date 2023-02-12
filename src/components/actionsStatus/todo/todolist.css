@@ -1,0 +1,56 @@
+.TodoListStatus-container{
+    width: 32%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.todo-widget-container{
+    width: 100%;
+    height: 100%;
+ display: flex;
+ flex-direction: column;
+justify-content: space-around;
+}
+.todo{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 50px;
+padding: 15px;
+margin-top: 10px;
+}
+.right-todo{
+    display: flex;
+    align-items: center;
+}
+.TodosTıme{
+    font-size: 13px;
+    color: rgb(117, 117, 117);
+}
+.NewIcon{
+    padding: 5px 7PX;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.797);
+    border-radius: 10px;
+    opacity: 70%;
+    font-weight: 300;
+    color: #fff;
+    font-size: 10px;
+}
+.todos-container{
+    padding: 0 20px;
+}
+.todoTitle{
+    font-weight: 200;
+    font-size: 13px
+}
+@media screen and (max-width:1200px) {
+    .TodoListStatus-container{
+        width: 100%;
+        height: 500px;
+    }
+}

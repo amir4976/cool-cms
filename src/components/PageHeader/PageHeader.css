@@ -1,0 +1,19 @@
+.pageHeader{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding: 0 15px;
+}
+.pageHeader-btn{
+   padding: 10px 20px;
+   margin-right: 5px;
+   border: none;
+   border-radius: 10px;
+
+}
+.pageHeader-btn{
+    background-color: rgb(0, 0, 0);
+   
+}

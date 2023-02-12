@@ -1,0 +1,98 @@
+.Navbar-container{
+    width: 100%;
+    height: 4.5rem ;
+    background-color: #1E1E2D;
+    color: #fff;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: sticky;
+    
+    top: 0;
+    z-index: 999;
+}
+.navbar{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Logo{
+    width: 50px;
+
+}
+.logoPlace{
+  display: flex;
+  width: 300px;
+  height: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Department-btn{
+   width: 200px;
+   height: 50%;
+    /* margin-right: 50px; */
+    border-radius: 5px;
+    background-color: #353542;
+    color: #fff;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    cursor: pointer;
+
+}
+.Navbar-Navigation{
+    width: 400px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.profileName-nav{
+    font-size: 14px;
+    opacity: 50%;
+}
+.profilejob-nav{
+    font-size: 20px;
+}
+.profileImg-nav{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.profile-sec-nav{
+    display: flex;
+}
+.prof-info-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-left: 10px;
+}
+@media screen and (max-width:1000px){
+    .Department-btn{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .departmentTitle{
+        display: none;
+    }
+    .svgsIcon{
+        width: 20px;
+    }
+    .Navbar-Navigation{
+        width: 30%;
+    }
+    .profile-sec-nav{
+        display: none;
+    }
+    .logoPlace{
+        width:50%;
+    }
+}

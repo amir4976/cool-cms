@@ -1,0 +1,9 @@
+.projectList-container{
+    flex: 5;
+    width: 100%;
+    height: max-content;
+    padding: 35px;
+}
+.projectListItem{
+    padding: 17px;
+}

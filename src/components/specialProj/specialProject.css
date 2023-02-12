@@ -1,0 +1,146 @@
+.SpecialProject{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+}
+.special-cover{
+    border-radius: 10px;
+    background-image: url('../../../public/bg-4 - Copy (2).jpg');
+    height: 100%;
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.special-main{
+    width: 50%;
+    height: 100%;
+    padding: 25px;
+    /* background-color: red; */
+}
+.special-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.special-header-title{
+    display: flex;
+    flex-direction: column;
+}
+
+.special-btn{
+    padding: 5px 10px ;
+    background: rgba(116, 69, 255, 0.307);
+    border-radius: 10px;
+    border: none;
+}
+.special{
+    font-size: 13px;
+    color: rgb(130, 130, 130);
+}
+.special-title{
+    font-weight: 600;
+    font-size: 17px;
+}
+.special-performances-container{
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+}
+.special-performance{
+    width: 50%;
+    display: flex;
+
+    
+}
+.special-performance-cover{
+    width: 30px;
+    height: 30px;
+    background: rgb(135, 130, 112);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 8px;
+ 
+
+}
+.special-performance-info{
+    display: flex;
+    flex-direction: column;
+}
+.special-performance-title{
+    font-size: 8px;
+    color: rgb(135, 135, 135);
+}
+.special-performance-name{
+    font-size: 13px;
+}
+.special-performance-cover-img{
+    background-image: url('../../../public/profs/300-9.jpg');
+    background-position: center;
+    background-size: contain;
+}
+
+
+
+
+
+
+
+
+
+.main-special-project-title{
+    font-size: 14px;
+    color: rgb(130, 130, 130);
+}
+
+
+
+
+
+
+
+
+
+
+
+.special-project-pey-date-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+}
+.special-project-date-container,.special-project-pay-container{
+    width: 45%;
+    height:70px;
+    border:1px dotted rgb(130, 130, 130);
+border-radius:10px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+padding: 10px;
+}
+
+.special-project-date , .special-project-pay{
+    font-size: 16px;
+
+}
+.special-project-date-dis , .special-project-pay-dis{
+    font-size: 10px;
+    color: rgb(130, 130, 130);
+}
+.special-project-liked-reference{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;    
+}
+
+.special-avatars{
+    width:10px;
+}

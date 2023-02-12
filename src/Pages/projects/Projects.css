@@ -1,0 +1,41 @@
+.project-container{
+    width: 100%;
+    /* display: flex; */
+
+    padding: 35px;
+    flex: 5;
+}
+.main-project{
+    width: 100%;
+    /* height: 100%; */
+    /* background-color: red; */
+}
+@media screen and (max-width:700px) {
+.project-container{
+ padding: 0;   
+}
+}
+.first-section-in-projects-col{
+  padding:  0 15px;
+}
+.testDiv{
+    width: 100%;
+    height: 100%;
+    background-color: skyblue;
+
+}
+.Col-mb{
+    padding-bottom: 2rem;
+}
+.progress-sec{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.second-section-in-project-col{
+    /* background: red; */
+    /* width: 100px; */
+    height: 380px;
+    padding: 0 15px;
+    margin-bottom: 2rem;
+}

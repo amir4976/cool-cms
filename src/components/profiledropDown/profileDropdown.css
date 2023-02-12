@@ -1,0 +1,43 @@
+.dropDown-con{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.dropDown{
+    width: 200px;
+    height: 500px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+}
+.D-item:hover{
+    background: #c0c0ff3b;
+}
+.list-unstyled{
+    text-align: right;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.profileName-nav{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.profileJob-nav{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.userStatus{
+    height: 100px;
+    padding-left: 10px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#dropdown-custom-components{
+    text-decoration: none;
+}
